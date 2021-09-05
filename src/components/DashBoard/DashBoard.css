@@ -1,0 +1,21 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2018/07/25/16/00/art-3561710_960_720.jpg);
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.mywallets {
+  color: rgb(170, 167, 167);
+  text-align: center;
+}
+
+.dropdown {
+  background-color: orange;
+  border-radius: 10px;
+}
+.card_dashboard {
+  margin-top: 10px;
+  background-color: rgb(21, 202, 66);
+  padding: 20px;
+}

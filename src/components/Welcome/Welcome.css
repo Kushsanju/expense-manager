@@ -1,0 +1,55 @@
+.about {
+  padding: 10px 0 0 0;
+}
+
+.about p {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.about h1 {
+  margin-top: 30%;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #77c720;
+  margin-top: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+
+.button:hover {
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+
+  background-image: linear-gradient(
+    to right,
+    #f5ce62,
+    #e43603,
+    #fa7199,
+    #e85a19
+  );
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
